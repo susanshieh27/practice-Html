@@ -4,18 +4,21 @@
         <title>GITHUB hub</title>
     </head>
     <link rel="stylesheet" href="practice.css" />
+    
     <body>
         <div class="container">
             <header>
-            <div class="border-head">GitHub Hub</div>
-            <div>This is a site to search GitHub for interesting projects.</div>
-            <nav>
-                <ul>
-                    <li><a href="/index.html">Home</a></li> 
-                    <li><a href="/contact.html">Contact</a></li>
-                    <li><a href="/about.html">About Us</a></li>
-                </ul>  
-            </nav>
+                <nav>
+                    <ul>
+                        <li><a href="/index.html">Home</a></li> 
+                        <li><a href="/contact.html">Contact</a></li>
+                        <li><a href="/about.html">About Us</a></li>
+                    </ul>  
+                </nav>
+                <div>
+                    <img src="github-logo.png" class="border-head">
+                </div>
+            <div>This is a site to search GitHub for interesting projects.</div>  
         </header>
         <section id="main">
             <p>In this <em>sample site</em>, we'll show a list of <a href="https://github.com/">GitHub</a> projects <span>and the data </span>about <strong>those projects</strong>.</p>
@@ -36,11 +39,14 @@
                 <br />
                 <input type="submit" value="search"/>
             </form>
+            <div id="results" class="border-head">
+                This is where we are displaying the results...
+            </div>
         </section>
         <footer>
             &copy; 2018
         </footer>
         </div>
-        
+        <script type="text/javascript" src="practice.js"></script>
     </body>
 </html>

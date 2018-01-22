@@ -42,8 +42,20 @@ footer{
     border: solid 2px #444;
     border-radius: 3px;
 }
+a{
+    color: green;
+}
+#results{
+    padding: 2px;
+    width: 600px;
+    display: inline-block;
+    vertical-align: top;
+}
 .simple-form{
     padding: 2px;
+    width: 300px;
+    vertical-align: top;
+    display: inline-block;
 }
 .simple-form label{
     font-weight: bold;
@@ -64,4 +76,12 @@ footer{
     margin: 0 auto;
     background-color: white;
     padding: 5px;
+}
+header nav{
+    float: right;
+    margin-right: 5px;
+}
+header nav li{
+    display: inline;
+    font-size: 12px;
 }
